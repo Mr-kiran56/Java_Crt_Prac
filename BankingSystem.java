@@ -70,7 +70,7 @@ boolean Isrun=true;
             case 3: {
                 System.out.print("Enter amount to Credit : ");
                 double creditamount = sc.nextDouble();
-                System.out.println("You want to credit your maoney (y/n)?");
+                System.out.println("You want to credit your money (y/n)?");
                 char gues = sc.next().charAt(0);
                 if (gues != 'n') {
                     System.out.println("Your Amount is Successfully Credited !! ");
@@ -85,7 +85,7 @@ boolean Isrun=true;
             }
             break;
             case 5:{
-                System.out.println("You want to quit (y/n)");
+                System.out.println("You want to Quit (y/n)");
                 char optins=sc.next().charAt(0);
 
                 if(optins=='n'){
