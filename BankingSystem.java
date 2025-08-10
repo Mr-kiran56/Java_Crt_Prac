@@ -59,7 +59,7 @@ boolean Isrun=true;
                     char gues=sc.next().charAt(0);
                     if(gues!='n' && Bankbalance >=debitamount ){
                         System.out.println("Your Amount is Successfully Debited !! ");
-                        System.out.printf("Your amount is Credited to YOur accounr: %.2f ",(Bankbalance-=debitamount) );
+                        System.out.printf("Your amount is Credited to YOur account: %.2f ",(Bankbalance-=debitamount) );
                     }else{
                         System.out.println("Sorry Bro You have'nt an Insufficent amount to debit" );
                     }
